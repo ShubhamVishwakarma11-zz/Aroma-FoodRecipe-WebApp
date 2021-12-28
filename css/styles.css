@@ -92,7 +92,6 @@ p,a {
     bottom: 5px;
 }
 .search-input {
-    width: 50%;
     border-radius: 0.5rem 0 0 0.5rem;
     outline: none;
     border: 2px solid #2B1200;
@@ -118,13 +117,10 @@ p,a {
     color: white;
 }
 
-.search-btn:hover 
-.search-input{
-    border: 2px solid #792300;
-}
-
 .search-input:focus{
     background-color: #ECCBB3;
+    box-shadow: none;
+    border: 2px solid #2B1200;
 }
 
 /* Search Result  */
