@@ -4,11 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/988acad91f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Amita:wght@700&family=Merriweather+Sans&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">  
     <link rel="stylesheet" href="css/styles.css">
     <title>Aroma - FoodRecipe App</title>
 </head>
 <body>
-    <h1> Hello</h1>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navigation-bar navbar-light">
+        <div class="container-fluid">
+            <!-- Brand -->
+            <a class="navbar-brand brand-logo" href="index.html">
+                <img class = "brand-img" src="images/brand.svg" alt="brand-icon">
+                <h6 class = "brand-text"> Aroma</h6>
+            </a> 
+            <!-- Navigation List -->
+            <div class="navbar-nav navigation-bar-items">
+              <a class="nav-link navigation-bar-item " aria-current="page" href="#">Today's Recipe</a>
+              <a class="nav-link navigation-bar-item" href="#">Explore</a>
+                <div class="search-bar navigation-bar-item">
+                    <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control search-input" id="search-input" placeholder="Search" aria-label="Username" aria-describedby="addon-wrapping">
+                    <button class = "btn  search-btn" id = "search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </nav>
+      <div class="navigation-bar-bottom"></div>
+      
+    <!-- Search Result -->
+    <!-- <div class = "search-result">
+        <div class="row add" id = "add-card">
+          
+        </div>
+    </div> -->
+    <!-- Today's Special Section -->
+    <div class="today-special">
+        <div class="container-fluid">
+            <h2 class="today-special-heading"> Today's Kitchen Smells Like ... </h2>
+            <div class="recipe-card recipe-card-todaySpecial">
+                <div class="recipe-body">
+                    <img class = "recipe-img" src="images/recipe-img.png" alt="recipe-img">
+                    <div class="recipe-text">
+                        <h2 class="recipe-title"> Egg in a Hole </h2>
+                        <h5 class ="recipe-subtitle"> Servings: 2</h5>
+                        <p class="recipe-description">Egg in a Hole and Egg in a Hole</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="recipe-card">
+            <div class="recipe-body">
+                <img class = "recipe-img" src="images/recipe-img.png" alt="recipe-img">
+                <div class="recipe-text">
+                    <h2 class="recipe-title"> Egg in a Hole </h2>
+                    <h4 class ="recipe-subtitle"> Servings: 2</h4>
+                    <p class="recipe-description">Egg in a Hole and Egg in a Hole</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+      
+
+
 
     <script src="index.js"></script>
 </body>
