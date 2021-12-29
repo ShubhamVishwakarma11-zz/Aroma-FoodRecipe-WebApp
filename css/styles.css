@@ -131,7 +131,8 @@ p,a {
 
 .navigation-bar-bottom {
     height: 90px;
-    background-color: #F6E7DC;
+    background-color: #fff1e6;
+    /* background-color: #F6E7DC; */
 }
 
 /* Today's Special Section */
